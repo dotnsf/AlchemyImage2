@@ -19,7 +19,7 @@ PHP + MySQL + AlchemyAPI による簡易画像アップローダーサンプル
 
 - createtables.php : 必要なテーブルを作成する（最初に一回実行）
 
-- credentials.php : 接続情報（このファイルをカスタマイズする必要有り）
+- credentials.php : 接続情報（Bluemix 以外から使う場合は、このファイルをカスタマイズする）
 
 - delete.php : 指定した画像の情報を DB から削除する
 
