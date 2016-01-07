@@ -81,7 +81,8 @@ if( $tmpname ){
       }
       
       $dbh = null;
-      print( 'r = ' . $r );
+      //print( 'r = ' . $r );
+      header( 'location: /' );
     }
   }catch( PDOException $e ){
     print( 'Error: ' . $e->getMessage() );
