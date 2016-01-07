@@ -27,7 +27,7 @@ if( isset( $_GET['id'] ) && $_GET['id'] ){
       
       $dbh = null;
       
-      header( 'Location: http://' . $_SERVER['SERVER_NAME'] . '/index_old.php' );
+      header( 'Location: http://' . $_SERVER['SERVER_NAME'] . '/admin.php' );
       exit();
     }
   }catch( PDOException $e ){
